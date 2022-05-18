@@ -16,3 +16,28 @@ INSERT INTO DBO.FORMA_PAGAMENTO VALUES ('Pix');
 INSERT INTO DBO.FORMA_PAGAMENTO VALUES ('PicPay');
 INSERT INTO DBO.FORMA_PAGAMENTO VALUES ('Google Pay');
 INSERT INTO DBO.FORMA_PAGAMENTO VALUES('Mercado Pago');
+
+-- TABELA PRODUTO
+
+SELECT * FROM DBO.PRODUTO
+
+INSERT INTO DBO.PRODUTO
+VALUES('Bola de brinquedo',
+'Bola para morder e pegar para cachorros',
+'P', 10.00);
+
+INSERT INTO DBO.PRODUTO VALUES('Shampo Pet Love',
+'Para um banho cheiroso', 'P', 13.00);
+
+INSERT INTO DBO.PRODUTO
+VALUES('Banho e Tosa', 'Serviço de estética', 'S', 60.00);
+
+INSERT INTO DBO.PRODUTO
+VALUES('Coleira', 'Segurança para seu pet', 'P', 66.90);
+
+INSERT INTO DBO.PRODUTO
+VALUES('Consulta Veterinária', 'Consulta especializada', 'S', 299.90);
+
+-- TABELA CLIENTES
+
+SELECT * FROM 
